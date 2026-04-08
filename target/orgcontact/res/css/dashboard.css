@@ -1,0 +1,73 @@
+body{
+background:#0b1b2b;
+color:white;
+font-family:Arial;
+}
+
+/* Navbar */
+
+.navbar{
+background:#0f2a44;
+}
+
+/* Sidebar */
+
+.sidebar{
+height:100vh;
+background:#091522;
+padding-top:20px;
+}
+
+.sidebar a{
+display:block;
+padding:12px 20px;
+color:#cfe8ff;
+text-decoration:none;
+margin-bottom:5px;
+border-radius:6px;
+}
+
+.sidebar a:hover{
+background:#2D9FFF;
+color:white;
+}
+
+/* Main Content */
+
+.main{
+padding:30px;
+}
+
+/* Card */
+
+.card{
+background:#13293f;
+border:none;
+color:white;
+}
+
+/* Table */
+
+.table{
+color:white;
+}
+
+.table thead{
+background:#1e3f66;
+}
+
+/* Buttons */
+
+.btn-add{
+background:#28a745;
+color:white;
+}
+
+.btn-edit{
+background:#ffc107;
+}
+
+.btn-delete{
+background:#dc3545;
+color:white;
+}

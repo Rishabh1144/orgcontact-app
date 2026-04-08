@@ -1,0 +1,15 @@
+com\rishabh\orgcontactapp\config\CloudinaryConfig.class
+com\rishabh\orgcontactapp\dao\OrganizationDao.class
+com\rishabh\orgcontactapp\dao\OrganizationDaoImpl.class
+com\rishabh\orgcontactapp\controller\DashboardController.class
+com\rishabh\orgcontactapp\model\Organization.class
+com\rishabh\orgcontactapp\controller\ContactController.class
+com\rishabh\orgcontactapp\service\ContactService.class
+com\rishabh\orgcontactapp\service\ImageService.class
+com\rishabh\orgcontactapp\service\AuthService.class
+com\rishabh\orgcontactapp\controller\ImageController.class
+com\rishabh\orgcontactapp\dao\ContactDao.class
+com\rishabh\orgcontactapp\dao\ContactDaoImpl.class
+com\rishabh\orgcontactapp\model\Contact.class
+com\rishabh\orgcontactapp\controller\AuthController.class
+com\rishabh\orgcontactapp\service\OrgService.class

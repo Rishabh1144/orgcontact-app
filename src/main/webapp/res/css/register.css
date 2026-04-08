@@ -1,0 +1,92 @@
+/* Background */
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(-45deg,#050b18,#0b2a4a,#154c8f,#2D9FFF);
+background-size:400% 400%;
+animation:gradientMove 15s ease infinite;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* Navbar */
+.navbar{
+background:rgba(0,0,0,0.35);
+backdrop-filter:blur(10px);
+}
+
+.navbar-brand{
+font-weight:bold;
+font-size:24px;
+}
+
+.navbar-brand span{
+color:#2D9FFF;
+}
+
+/* Main section */
+.main{
+flex:1;
+display:flex;
+align-items:center;
+}
+
+/* Welcome text */
+.hero-title{
+font-size:42px;
+font-weight:bold;
+color:white;
+}
+
+.hero-text{
+color:#cfe8ff;
+font-size:18px;
+}
+
+/* Register card */
+.register-card{
+background:rgba(255,255,255,0.95);
+border-radius:16px;
+padding:40px;
+box-shadow:
+0 10px 40px rgba(0,0,0,0.4),
+0 0 20px rgba(45,159,255,0.4);
+animation:fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* Button */
+.btn-register{
+background:#28a745;
+color:white;
+font-weight:500;
+}
+
+.btn-register:hover{
+background:#218838;
+}
+
+/* Footer */
+footer{
+background:rgba(0,0,0,0.45);
+color:#ddd;
+text-align:center;
+padding:15px;
+}

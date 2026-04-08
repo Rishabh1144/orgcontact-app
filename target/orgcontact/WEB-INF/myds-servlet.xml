@@ -30,10 +30,10 @@
 		
 		
 		<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="myDataSource">
-			<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-			<property name="url" value="jdbc:mysql://localhost:3306/orgcontact_db"/>
-			<property name="username" value="root"/>
-			<property name="password" value="833836"/>
+			<property name="driverClassName" value="org.postgresql.Driver"/>
+			<property name="url" value="jdbc:postgresql://dpg-d7b55uqli9vc73fnvheg-a:5432/orgcontact_db"/>
+			<property name="username" value="orgcontact_db_user"/>
+			<property name="password" value="KtK5ZSq6JF6751pmZVxSpUhURE6wjW2A"/>
 		</bean>
 		
 		<bean class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" name="factory">
@@ -41,7 +41,7 @@
 			
 			<property name="hibernateProperties">
 				<props>
-					<prop key="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</prop>
+					<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
 					<prop key="hibernate.hbm2ddl.auto">update</prop>
 					<prop key="hibernate.show_sql">true</prop>
 				</props>
